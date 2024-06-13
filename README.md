@@ -1,1 +1,1 @@
-# intro-to-html-moringa
+# Intro to HTML Moringa
