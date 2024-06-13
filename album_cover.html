@@ -4,6 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML Album Cover</title>
+    <style>
+      .image_pos {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        background-repeat: no-repeat;
+        background-origin: 0 0;
+      }
+    </style>
   </head>
   <body>
     <div
@@ -15,7 +24,7 @@
         border: 10px solid #000;
       "
     >
-      <div class="" style="position: relative; width: 100%">
+      <div class="" style="position: relative; width: 100%; height: 70vh">
         <div
           class=""
           style="
@@ -35,7 +44,11 @@
             | from despicable me 2 |
           </p>
         </div>
-        <img src="./images/pharrell-williams-happyjpg.webp" alt="" />
+        <img
+          class="image_pos"
+          src="./images/metalocus_pharrellwilliams_01_1280.jpg"
+          alt=""
+        />
       </div>
       <div
         class=""
@@ -122,7 +135,15 @@
               studios, atlanta, ga
             </p>
           </div>
-          <div class="">
+          <div
+            class=""
+            style="
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              gap: 20px;
+            "
+          >
             <p style="text-align: center; text-transform: uppercase">
               pharrelwilliams.com
             </p>
@@ -130,7 +151,13 @@
               columbiarecords.com
             </p>
           </div>
-          <div class=""></div>
+          <div class="" style="height: 50px; margin-bottom: 50px">
+            <img
+              style="height: 100%; width: 100%; object-fit: contain"
+              src="./images/sony-music-logo.png"
+              alt=""
+            />
+          </div>
         </div>
       </div>
     </div>
